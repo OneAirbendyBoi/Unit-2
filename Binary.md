@@ -54,4 +54,4 @@ void loop()
   delay(750);
 }
 
-binary.png
+![](binary.png)
