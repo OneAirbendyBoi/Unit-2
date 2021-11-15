@@ -1,55 +1,57 @@
-// C++ code__
-//__
-int pin2 = 2;__
-int pin3 = 3;__
-int pin4 = 4;__
+// C++ code
+//
+int pin2 = 2;
+int pin3 = 3;
+int pin4 = 4;
 
-void setup()__
-{__
-  pinMode(pin2, OUTPUT);__
-  pinMode(pin3, OUTPUT);__
-  pinMode(pin4, OUTPUT);__
-}__
+void setup()
+{
+  pinMode(pin2, OUTPUT);
+  pinMode(pin3, OUTPUT);
+  pinMode(pin4, OUTPUT);
+}
 
-void loop()__
-{__
-  digitalWrite(pin2, LOW);__
-  digitalWrite(pin3, LOW);__
-  digitalWrite(pin4, LOW);__
-  delay(750);__
+void loop()
+{
+  digitalWrite(pin2, LOW);
+  digitalWrite(pin3, LOW);
+  digitalWrite(pin4, LOW);
+  delay(750);
   
-  digitalWrite(pin2, LOW);__
-  digitalWrite(pin3, LOW);__
-  digitalWrite(pin4, HIGH);__
-  delay(750);__
+  digitalWrite(pin2, LOW);
+  digitalWrite(pin3, LOW);
+  digitalWrite(pin4, HIGH);
+  delay(750);
   
-  digitalWrite(pin2, LOW);__
-  digitalWrite(pin3, HIGH);__
-  digitalWrite(pin4, LOW);__
-  delay(750);__
+  digitalWrite(pin2, LOW);
+  digitalWrite(pin3, HIGH);
+  digitalWrite(pin4, LOW);
+  delay(750);
     
-  digitalWrite(pin2, LOW);__
-  digitalWrite(pin3, HIGH);__
-  digitalWrite(pin4, HIGH);__
-  delay(750);__
+  digitalWrite(pin2, LOW);
+  digitalWrite(pin3, HIGH);
+  digitalWrite(pin4, HIGH);
+  delay(750);
     
-  digitalWrite(pin2, HIGH);__
-  digitalWrite(pin3, LOW);__
-  digitalWrite(pin4, LOW);__
-  delay(750);__
+  digitalWrite(pin2, HIGH);
+  digitalWrite(pin3, LOW);
+  digitalWrite(pin4, LOW);
+  delay(750);
   
-  digitalWrite(pin2, HIGH);__
-  digitalWrite(pin3, LOW);__
-  digitalWrite(pin4, HIGH);__
-  delay(750);__
+  digitalWrite(pin2, HIGH);
+  digitalWrite(pin3, LOW);
+  digitalWrite(pin4, HIGH);
+  delay(750);
     
-  digitalWrite(pin2, HIGH);__
-  digitalWrite(pin3, HIGH);__
-  digitalWrite(pin4, LOW);__
-  delay(750);__
+  digitalWrite(pin2, HIGH);
+  digitalWrite(pin3, HIGH);
+  digitalWrite(pin4, LOW);
+  delay(750);
     
-  digitalWrite(pin2, HIGH);__
-  digitalWrite(pin3, HIGH);__
-  digitalWrite(pin4, HIGH);__
-  delay(750);__
-}__
+  digitalWrite(pin2, HIGH);
+  digitalWrite(pin3, HIGH);
+  digitalWrite(pin4, HIGH);
+  delay(750);
+}
+
+binary.png
