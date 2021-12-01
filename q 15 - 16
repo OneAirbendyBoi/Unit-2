@@ -1,0 +1,30 @@
+def q15(a):
+    #equation for turning binary to decimal
+    decA = 4 * int(a[0]) + 2 * int(a[1]) + int(a[2])
+    decB = 4 * int(a[4]) + 2 * int(a[5]) + int(a[6])
+    decC = 4 * int(a[8]) + 2 * int(a[9]) + int(a[10])
+    output = str(decA) + str(decB) + str(decC)
+    return output
+z = q15('100!000!111')
+print(f"q15 = {z}")
+
+q15 = 407
+
+
+def q16(code):
+    #counters
+    k = 0
+    l = 1
+    #empty string for output
+    out = ""
+    #arranging numbers
+    for i in range(int(len(code)/2)):
+        out += str(code[l]) + str(code[k])
+        l += 2
+        k += 2
+    return out
+# when not appended to list, only last character would come out
+v = q16("01ABxy")
+print(v)
+
+10BAyx
